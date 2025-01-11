@@ -1,70 +1,47 @@
-* {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-  }
-  
-  body {
-    background-image: url("https://img.freepik.com/free-photo/4th-july-independence-day-background-with-american-flag-grunge-wood-texture_1048-10507.jpg?t=st=1733584073~exp=1733587673~hmac=e6ab40952c86382ad38510ccda645f7b7eb1fb96e1b692f43442697e940c20ee&w=740");
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 70px;
-    font-family: sans-serif;
-  }
-  
-  h2 {
-    font-size: 50px;
-  }
-  
-  .image {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    justify-items: center;
-  }
-  
-  .photos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  
-  .logo {
-    padding: 100px 100px; 
-  }
-  
-  .logo1.logo {
-    padding:200px;
-  }
-  
-  p {
-    padding: 20px;
-    font-size: 40px;
-  }
-  
-  li {
-    color: blue;
-    font-weight: bold;
-    padding-top: 20px;
-    font-size: 30px;
-  }
-  
-  .textbg {
-    background-color: red;
-  }
-  
-  a {
-    background-color: red;
-    font-size: 40px;
-  }
-  
-  div {
-    font-size: 40px;
-  }
+body {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/4th-july-independence-day-background-with-american-flag-grunge-wood-texture_1048-10507.jpg?t=st=1733584073~exp=1733587673~hmac=e6ab40952c86382ad38510ccda645f7b7eb1fb96e1b692f43442697e940c20ee&w=740");
+}
+
+h1, h2 {
+  padding-top: 90px;
+  font-size: 40px;
+}
+
+#img-caption, #tribute-info, p {
+  font-size: 26px;
+  padding: 5px;
+}
+
+.image {
+  max-width: 60%;
+  padding: 30px;
+}
+
+p, ul {
+  padding: 100px;
+}
+
+
+li {
+  color: blue;
+  font-weight: bold;
+  padding-top: 20px;
+  font-size: 26px;
+}
+
+.textbg {
+  background-color: red;
+}
+
+a {
+  background-color: red;
+  font-size: 26px;
+  color: white;
+}
